@@ -29,6 +29,9 @@ public class Operator implements Serializable{
 	String fname;
 	String lname;
 	String password;
+	/**********************************************/
+	System.out.println("bonjour ceci est un test");
+	/**********************************************/
 	@OneToMany
 	@JsonIgnore
 	Set<Invoice> invoices;
