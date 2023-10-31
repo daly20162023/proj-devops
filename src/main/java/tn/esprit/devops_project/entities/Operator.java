@@ -30,7 +30,7 @@ public class Operator implements Serializable{
 	String lname;
 	String password;
 	/**********************************************/
-	System.out.println("bonjour ceci est un test");
+	System.out.println("bonjour ceci est un test de code");
 	/**********************************************/
 	@OneToMany
 	@JsonIgnore
